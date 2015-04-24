@@ -5,12 +5,12 @@ output: html_document
 
 DATA Variables 
 =================
-1. IDvolunteers
+1.IDvolunteers
       Identify the randomly labeled volunteers who tested the Smartphones' 
       embedded accelerometer and gyroscope
       integers ranging from 1 to 30
 
-2. activities
+2.activities
       1 WALKING
       2 WALKING_UPSTAIRS
       3 WALKING_DOWNSTAIRS
@@ -18,14 +18,14 @@ DATA Variables
       5 STANDING
       6 LAYING
  
-3. Acceleration-meanX
+3.Acceleration-meanX
       Mean value of the body acceleration signals in the X direction. Body acceleration is one of the two components of the acceleration 3-axial raw signals measured by the accelerometer. These time domain signals were derived using a low pass Butterworth filter with a corner frequency of 0.3 Hz.
       The units are 'g's (gravity of earth -> 9.80665 m/seg2).
       Data are normalized and bounded within [-1,1].
       original feature's number (column): 1
       original feature's name: tBodyAcc-mean()-X (prefix 't' to denote time)
 
-4. Acceleration-meanY
+4.Acceleration-meanY
       Mean value of the body acceleration signals in the Y direction. Body acceleration is one of the two components of the acceleration 3-axial raw signals measured by the accelerometer. These time domain signals were derived using a low pass Butterworth filter with a corner frequency of 0.3 Hz.T
       The units are 'g's (gravity of earth -> 9.80665 m/seg2).
       Data are normalized and bounded within [-1,1].
@@ -150,25 +150,25 @@ DATA Variables
       original feature's number (column): 123
       original feature's name: tBodyGyro-mean()-Z (prefix 't' to denote time) 
 
-24. Gyroscope-sdX
+24.Gyroscope-sdX
       standard deviation of the gyroscope raw signals measured in the X direction.
       The units are radians/second.
       original feature's number (column): 124
       original feature's name: tBodyGyro-std()-X (prefix 't' to denote time) 
 
-25. Gyroscope-sdY
+25.Gyroscope-sdY
       standard deviation of the gyroscope raw signals measured in the Y direction.
       The units are radians/second.
       original feature's number (column): 125
       original feature's name: tBodyGyro-std()-Y (prefix 't' to denote time) 
 
-26. Gyroscope-sdZ
+26.Gyroscope-sdZ
       standard deviation of the gyroscope raw signals measured in the Z direction.
       The units are radians/second.
       original feature's number (column): 126
       original feature's name: tBodyGyro-std()-Z (prefix 't' to denote time) 
 
-7.GyroscopeJerk-meanX
+27.GyroscopeJerk-meanX
       Mean value of the gyroscope's Jerk signals in the X direction, obtained by derivating in time the angular velocity (radians/second). 
       Data are normalized and bounded within [-1,1].
       original feature's number (column): 161
@@ -201,14 +201,14 @@ DATA Variables
       original feature's number (column): 166
       original feature's name: tBodyGyroJerk-std()-Z (prefix 't' to denote time) 
 
-33. AccelerationMagnitude-mean
+33.AccelerationMagnitude-mean
       Mean value of the magnitude of the body acceleration signals, calculated using the Euclidean norm.
       The units are 'g's (gravity of earth -> 9.80665 m/seg2).
       Data are normalized and bounded within [-1,1].
       original feature's number (column): 201
       original feature's name: tBodyAccMag-mean() (prefix 't' to denote time) 
 
-34. AccelerationMagnitude-sd
+34.AccelerationMagnitude-sd
       standard deviation of the magnitude of the body acceleration signals.
       The units are 'g's (gravity of earth -> 9.80665 m/seg2).
       original feature's number (column): 202
