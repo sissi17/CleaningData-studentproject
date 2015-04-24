@@ -1,4 +1,4 @@
-# Data-cleaning-tidy-data-creation-s-project
+# Data-cleaning-project
 
 title: tidy data preparation based on "Human Activity Recognition Using Smartphones Dataset (Version 1.0)"
 
