@@ -40,8 +40,10 @@ Step 8. Generate one tidy data set using the dplyr package (grouping_by and chai
 Step 9. Save the tidy data set as a text file (created with write.table())
 
 Further steps: 
+
 To read and look at the tidy data set in R, use the following code:
 data <- read.table("tidydata.txt", header = TRUE)
+
 the URL to find the tidydata.txt file is the following: 
 https://s3.amazonaws.com/coursera-uploads/user-0f6f7189bd259b901c471b21/973500/asst-3/4fc355c0e9ed11e4a78d8ffdc6ca319c.txt
 
